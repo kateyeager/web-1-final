@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500;600&display=swap');
 
 
 
@@ -27,11 +27,11 @@ li {
 }
 
 .header-branding {
-   font-family: sofia-pro;
+  font-family: 'Poppins', sans-serif;
 	font-style: normal;
     font-weight: 600;
     font-size: 34px;
-    letter-spacing: 0em;
+    
 padding: 20px;
 
   padding-bottom: 25px;
@@ -66,12 +66,12 @@ position: -webkit-sticky; /* Safari */
 }
 
 .header-nav-item{
-  font-family: Proxima-Nova;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 1rem;
 align-items: center;
-line-height: 16px;
+line-height: 20px;
 color: #000000;
   text-decoration: none;
   width: 46px;
@@ -139,8 +139,7 @@ align-items: center;
 
 .hi-there{
   text-transform: uppercase;
-
-font-family: Sofia-Pro;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -156,7 +155,7 @@ color: #E85F5C;
 }
 
 h1{
-  font-family: Sofia-Pro;
+font-family: 'Poppins', sans-serif;
 	font-style: normal;
 margin-top: 50px;
 font-weight: bold;
@@ -201,11 +200,11 @@ margin-top: 30px;
 .tagline{
   /* Tagline */
 
-font-family: Proxima-Nova;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-   line-height: 1.5rem;
+   line-height: 27.2px;
 margin-top: 50px;
 margin-left: 8.75px;
 letter-spacing: 0.64px;
@@ -227,7 +226,7 @@ height: auto;
 
 
 h2 {
-  font-family: Sofia-Pro;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: medium;
 font-size: 40px;
@@ -249,11 +248,11 @@ color: #4A4A4A;
 }
 
 h3{
-font-family: Proxima-Nova;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 23px;
+line-height: 23.2px;
 /* or 145% */
 margin-bottom: 1rem;
 display: flex;
@@ -275,12 +274,12 @@ width: 114px;
 height: 36px;
   border: 1.5px solid #E85F5C;
 box-sizing: border-box;
-  font-family: Proxima-Nova;
+ font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1rem;
 line-height: 23px;
-
+letter-spacing: -0.5px;
 
 display: flex;
 align-items: center;
@@ -292,11 +291,12 @@ text-decoration: none;
 }
 
 a.check-it-out:hover{
-  font-family: Proxima-Nova;
+ font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 23px;
+letter-spacing: -0.5px;
 
 
 display: flex;
@@ -309,12 +309,12 @@ background: #F28E85;
 }
 
 a.check-it-out:active{
-  font-family: Proxima-Nova;
+ font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 23px;
-
+letter-spacing: -0.5px;
 
 display: flex;
 align-items: center;
@@ -326,12 +326,13 @@ background: #F28E85;
 }
 
 a.check-it-out:focus{
-  font-family: Proxima-Nova;
+ font-family: 'Montserrat', sans-serif;
+
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 23px;
-/* or 145% */
+letter-spacing: -0.5px;
 
 display: flex;
 align-items: center;
@@ -445,7 +446,7 @@ padding: 7rem 5.5rem 5.5rem 5.5rem;
 }
 
 h4{
-  font-family: Sofia-pro;
+font-family: 'Poppins', sans-serif;
 	font-style: normal;
 font-weight: normal;
   color: #F28E85;
@@ -457,7 +458,7 @@ font-weight: normal;
 
 span{
   color: #F2D3D0;
-    font-family: Sofia-Pro;
+   font-family: 'Poppins', sans-serif;
 	font-style: normal;
 font-weight: normal;
   text-transform: none;
@@ -480,11 +481,12 @@ font-weight: normal;
 
 
 .about-intro{
-  font-family: Proxima-nova;
+font-family: 'Poppins', sans-serif;
+
 font-style: normal;
-font-weight: bold;
-font-size: 3rem;
-line-height: 1rem;
+font-weight: 600;
+font-size: 48px;
+line-height: 12px;
 margin-left: 5px;
 display: flex;
 align-items: center;
@@ -495,11 +497,12 @@ color: #4A4A4A;
 }
 
 .about-body-copy{
-  font-family: Proxima-Nova;
+  font-family: 'Montserrat', sans-serif;
+
 	font-style: normal;
 font-weight: normal;
 font-size: 1rem;
-line-height: 27px;
+line-height: 27.2px;
 margin-left: 8.35px;
 display: flex;
 align-items: center;
@@ -565,11 +568,11 @@ padding: 6.5rem 5.5rem 5.5rem 5.5rem;
 
 .say-hi{
    text-transform: uppercase;
-font-family: Sofia-Pro;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 12px;
+font-size: 1rem;
+line-height: 25px;
 margin-right: auto;
 margin-bottom: 0;
   margin-left: 3px;
@@ -580,7 +583,7 @@ min-width: 8px;
 }
 
 .email{
-  font-family: Sofia-Pro;
+ font-family: 'Poppins', sans-serif;
 	font-style: normal;
 margin-left: 0;
   margin-right: auto;
@@ -660,11 +663,12 @@ margin-right: 0;
 }
   
  .footer-nav-item{
-font-family: Proxima-Nova;
+  font-family: 'Montserrat', sans-serif;
+
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+font-size: 1rem;
+line-height: 20px;
 text-decoration: none;
 color: #ffffff;
 }
@@ -727,7 +731,8 @@ font-style: normal;
     text-transform: uppercase;
 align-self: center;
 justify-content: center;
-  font-family: Sofia-Pro;
+font-family: 'Poppins', sans-serif;
+	
   width: 100%;
 }
 
