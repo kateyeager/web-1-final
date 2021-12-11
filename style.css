@@ -496,6 +496,10 @@ margin-bottom: 35px;
 color: #4A4A4A;
 }
 
+@media (max-width: 600) {
+	line-height: 70px;
+}
+
 .about-body-copy{
   font-family: 'Montserrat', sans-serif;
 
