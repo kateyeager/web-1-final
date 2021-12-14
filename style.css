@@ -94,22 +94,21 @@ color: #000000;
 
 
 
-@media (max-width: 600px) {
-	.header-nav-outer-wrapper,
-	.nav {
-		display: flex;
-align-items: center;
-	}
-	.header-nav-outer-wrapper {
-		flex-direction: column;
-		align-items: center;
-    	.header-nav-outer-wrapper{
-		width: 80%;
-		left-margin: 5%;
-		right-margin: 5%;
-		max-width: 80%;
-	}
-	}
+@media (max-width: 750px) {
+.header-nav-item-wrapper{
+ 	text-align: center;
+	
+
+
+  padding: 5px;
+}
+.header-nav-outer-wrapper{
+position: -webkit-sticky; /* Safari */
+
+  margin: 5rem;
+  	text-align: center;
+	display: flex;
+}
 
 }
 
