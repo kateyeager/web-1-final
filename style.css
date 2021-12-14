@@ -663,7 +663,7 @@ width: auto;
     max-width: 100%;
 margin-right: 0;
     padding-left: 0;
-    font-size: 42px;
+    font-size: 36px;
   }
   
 }
@@ -680,11 +680,12 @@ margin-right: 0;
     max-width: 100%;
 margin-right: 0;
     padding-left: 0;
-    font-size: 2rem;
+    font-size: 30px;
+	  top-margin: 1rem;
   }
  .say-hi {
 	 font-size: .5rem;
-	 
+	
 }
 }
   
