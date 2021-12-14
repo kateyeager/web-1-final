@@ -125,7 +125,7 @@ position: -webkit-sticky; /* Safari */
 
 @media (min-width: 1025px) {
 	.header-nav-outer-wrapper {
-		flex-direction: row;
+		flex-direction: row wrap;
 		justify-content: space-between;
 	}
 
@@ -420,6 +420,9 @@ height: auto;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+	.img {
+	width: 80%;
+	}
 }
 
 .about-skills-container{
@@ -677,10 +680,7 @@ margin-right: 0;
     font-size: 30px;
 	  top-margin: 5px;
   }
- .say-hi {
-	 font-size: .5rem;
-	
-}
+
 }
   
  .footer-nav-item{
