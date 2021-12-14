@@ -106,7 +106,7 @@ align-items: center;
     	.header-nav-outer-wrapper{
 		width: 80%;
 		margin: 0 auto;
-		max-width: 1150px;
+		max-width: 80%;
 	}
 	}
 
@@ -124,7 +124,7 @@ align-items: center;
     	.header-nav-outer-wrapper{
 		width: 80%;
 		margin: 0 auto;
-		max-width: 1150px;
+		max-width: 80%;
 	}
 	}
 }
