@@ -105,7 +105,8 @@ align-items: center;
 		align-items: center;
     	.header-nav-outer-wrapper{
 		width: 80%;
-		margin: 0 auto;
+		left-margin: 5%;
+		right-margin: 5%;
 		max-width: 80%;
 	}
 	}
