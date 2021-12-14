@@ -497,7 +497,9 @@ color: #4A4A4A;
 }
 
 @media (max-width: 600) {
+	.about-intro{
 	line-height: 70px;
+	}
 }
 
 .about-body-copy{
@@ -651,8 +653,8 @@ width: auto;
 
 @media (max-width: 768px) {
   .contact-container {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 25%;
+    margin-right: 25%;
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
@@ -664,6 +666,26 @@ margin-right: 0;
     font-size: 42px;
   }
   
+}
+
+@media (max-width: 750px) {
+  .contact-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+  .email {
+    max-width: 100%;
+margin-right: 0;
+    padding-left: 0;
+    font-size: 2rem;
+  }
+ .say-hi {
+	 font-size: .5rem;
+	 
+}
 }
   
  .footer-nav-item{
