@@ -98,7 +98,14 @@ color: #000000;
 .header-nav-item-wrapper{
  	text-align: center;
 	
-
+  .header-nav-outer-wrapper,
+	.nav {
+		display: flex;
+align-items: center;
+	}
+	.header-nav-outer-wrapper {
+		flex-direction: column;
+		align-items: center;
 
   padding: 5px;
 }
