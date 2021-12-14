@@ -112,7 +112,7 @@ align-items: center;
 .header-nav-outer-wrapper{
 position: -webkit-sticky; /* Safari */
 .header-nav-outer-wrapper {
-		flex-direction: row;
+		flex-direction: row wrap;
 		justify-content: space-between;
 	}
   margin: 5rem;
