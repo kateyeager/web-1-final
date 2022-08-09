@@ -694,7 +694,7 @@ margin-right: 0;
 margin-right: 0;
     padding-left: 0;
     font-size: 30px;
-	  top-margin: 5px;
+	  margin-top: 5px;
   }
 
 }
@@ -835,14 +835,13 @@ justify-content: space-evenly;
 		flex-direction: row;
 		align-items: center;
       justify-content: space-between;
-    	.footer-nav-outer-wrapper{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1125px;
 	}
 	}
 
-}
+
 
 @media (min-width: 768px) {
 	.footer-nav-outer-wrapper,
