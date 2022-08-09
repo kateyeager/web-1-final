@@ -570,7 +570,7 @@ padding: 6.5rem 5.5rem 5.5rem 5.5rem;
   .skills-container{
     justify-content: center;
     align-items: center;
-    line-spacing: 4rem;
+    letter-spacing: 4rem;
     width: auto;
     margin-left: 25%;
     text-align: right;
@@ -593,7 +593,7 @@ font-weight: normal;
 font-size: 1rem;
 line-height: 25px;
 margin-right: auto;
-margin-bottom: 0;
+
   margin-left: 3px;
 align-items: flex-end;
 letter-spacing: 1.6px;
@@ -603,6 +603,7 @@ min-width: 8px;
 
 .email{
  font-family: 'Sofia-pro', sans-serif;
+ 
 	font-style: normal;
 margin-left: 0;
   margin-right: auto;
@@ -725,7 +726,7 @@ a.footer-nav-item{
 .footer-nav-outer-wrapper{
 background-color: #4A4A4A;
 
-width: 100%;
+min-width: 100%;
    display: flex;
    flex-flow: row wrap;
   align-items: space-evenly;
@@ -740,17 +741,14 @@ display: flex;
    flex-flow: row wrap;
   justify-content: space-around;
     padding: 0px 0px 0px 0px;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 40px;
 }
 
 
 footer{
-margin-left: auto;
-  margin-right: auto;
  display: flex;
-  flex-direction: row wrap;
 	text-align: center;
-justify-content: space-evenly;;
+justify-content: space-around;
 width: 100%;
 
   
@@ -759,18 +757,20 @@ width: 100%;
 }
 
 footer p{
-  color: #ffffff;
-     font-weight: 600;
+
+  color: #9b9b9b;
+     font-weight: 200;
 font-style: normal;
-    font-size: 15.25px;
+    font-size: 1rem;
     letter-spacing: .1em;
     line-height: 1.55em;
-    text-transform: uppercase;
-align-self: center;
+    text-transform: capitalize;
+align-items: center;
 justify-content: center;
+margin: auto;
 font-family: 'Sofia-pro', sans-serif;
-	
-  width: 100%;
+padding-bottom: 10px;
+
 }
 
 
